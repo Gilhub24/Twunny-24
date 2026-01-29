@@ -369,4 +369,55 @@ body {
   max-width: 80%;
 }
 
-.msg.bot
+.msg.bot {
+  background: #111827;
+  align-self: flex-start;
+}
+
+.msg.user {
+  background: #f97316;
+  color: #111827;
+  align-self: flex-end;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #111827;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 0.5rem 0.6rem;
+  border: none;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 0.85rem;
+}
+
+.chat-input input:focus {
+  outline: none;
+}
+
+.chat-input button {
+  border: none;
+  background: #f97316;
+  color: #111827;
+  padding: 0 0.9rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .app-main {
+    flex-direction: column;
+  }
+
+  .dartboard-section {
+    grid-template-columns: 1fr;
+  }
+
+  .resources-panel {
+    order: -1;
+  }
+}
