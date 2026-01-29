@@ -1,0 +1,22 @@
+export const dartboardBundles = [
+  { id: 1, title: 'Identity protection and account takeover prevention', description: 'Protect user identities and stop account takeover attempts.', capability: 'Identity protection' },
+  { id: 2, title: 'Phishing and social engineering defense', description: 'Defend users from phishing and social engineering attacks.', capability: 'Phishing defense' },
+  { id: 3, title: 'Endpoint threat prevention', description: 'Block malware and exploits on endpoints.', capability: 'Endpoint prevention' },
+  { id: 4, title: 'Email and collaboration security', description: 'Secure email and collaboration platforms.', capability: 'Email security' },
+  { id: 5, title: 'Ransomware and malware protection', description: 'Detect and stop ransomware and malware campaigns.', capability: 'Ransomware protection' },
+  { id: 6, title: 'Zero-day and advanced threat detection', description: 'Identify unknown and advanced threats.', capability: 'Advanced threat detection' },
+  { id: 7, title: 'Cloud and SaaS application protection', description: 'Secure access to cloud and SaaS apps.', capability: 'Cloud protection' },
+  { id: 8, title: 'Data loss prevention', description: 'Prevent sensitive data from leaving the organization.', capability: 'DLP' },
+  { id: 9, title: 'Insider threat monitoring', description: 'Detect risky or malicious insider behavior.', capability: 'Insider threat' },
+  { id: 10, title: 'Secure access for remote and hybrid workers', description: 'Provide secure access for remote users.', capability: 'Secure remote access' },
+  { id: 11, title: 'Threat intelligence and risk correlation', description: 'Correlate events with threat intelligence.', capability: 'Threat intelligence' },
+  { id: 12, title: 'Incident detection and response', description: 'Detect, triage, and respond to incidents.', capability: 'Incident response' },
+  { id: 13, title: 'Attachment and URL protection', description: 'Scan and detonate attachments and URLs.', capability: 'Attachment and URL protection' },
+  { id: 14, title: 'Endpoint hardening and policy enforcement', description: 'Harden endpoints and enforce security policies.', capability: 'Endpoint hardening' },
+  { id: 15, title: 'Compliance, retention, and audit readiness', description: 'Support compliance and retention requirements.', capability: 'Compliance' },
+  { id: 16, title: 'Security monitoring and alerting', description: 'Monitor environments and generate alerts.', capability: 'Monitoring' },
+  { id: 17, title: 'User security awareness and behavior training', description: 'Train users to recognize and avoid threats.', capability: 'Awareness training' },
+  { id: 18, title: 'Backup, recovery, and operational resilience', description: 'Ensure backup and recovery for critical systems.', capability: 'Resilience' },
+  { id: 19, title: 'Continuous vulnerability and risk management', description: 'Identify and manage vulnerabilities.', capability: 'Vulnerability management' },
+  { id: 20, title: 'Overall security posture visibility and reporting', description: 'Gain visibility into overall security posture.', capability: 'Posture visibility' }
+];
